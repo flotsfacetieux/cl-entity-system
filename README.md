@@ -7,7 +7,17 @@
 Only tested under LINUX with SBCL and [Quicklisp][QL].
 
 ### Set-up
-Load using [Quicklisp][QL] : `(ql:quickload :cl-es)`.
+
+You'll need to install :
+- [Steel Bank Common Lisp][2]
+- [the Quicklisp package tool][3]
+
+Clone the repository to your local-projects quicklisp directory.
+```
+cd ~/quicklisp/local-projects
+git clone https://github.com/flotfacetieux/cl-entity-system
+```
+Load using [Quicklisp][QL] : `(ql:quickload :cl-entity-system)`.
 
 ### Exemple of use
 
